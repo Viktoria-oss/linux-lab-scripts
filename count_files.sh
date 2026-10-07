@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Branch test
+
 # Розширений скрипт підрахунку файлів
 
 TARGET_DIR="${1:-/etc}"
