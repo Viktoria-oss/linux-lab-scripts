@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Linux Lab Scripts
 
 Колекція Bash-скриптів для лабораторних робіт
@@ -17,4 +16,4 @@ cat > README.md << 'EOF'
 ## Автор
 
 Студент групи ПІ-241
-EOF
+
