@@ -6,6 +6,12 @@ TARGET_DIR="${1:-/etc}"
 EXT="${2:-}"
 RECURSIVE="${3:-}"
 
+# Перевірка існування директорії
+if [ ! -d "$TARGET_DIR" ]; then
+    echo "Помилка: директорія $TARGET_DIR не існує"
+    exit 1
+fi
+
 count_items() {
     local dir=$1
     local type=$2
